@@ -4,6 +4,8 @@ A lightweight Electron desktop app that lets you run multiple Claude AI conversa
 
 > **Status: Work in Progress** — MVP is functional. Auth, split panes, and keyboard shortcuts all work. More features coming.
 
+![Claude SplitView Screenshot](screenshots/splitview-demo.png)
+
 ![Electron](https://img.shields.io/badge/Electron-33+-47848F?logo=electron&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue?logo=windows)
 ![License](https://img.shields.io/badge/License-MIT-green)
