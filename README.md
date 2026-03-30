@@ -26,7 +26,7 @@ A lightweight Electron desktop app that lets you run multiple Claude AI conversa
 ### Install and Run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-splitview.git
+git clone https://github.com/mamamia0729/claude-splitview.git
 cd claude-splitview
 npm install
 npm start
