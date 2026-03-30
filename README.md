@@ -1,8 +1,8 @@
 # Claude SplitView
 
-A lightweight Electron desktop app that lets you run multiple Claude AI conversations side by side. No more switching between chats — work on multiple projects simultaneously.
+A lightweight Electron desktop app that lets you run multiple Claude AI conversations side by side. No more switching between chats, work on multiple projects simultaneously.
 
-> **Status: Work in Progress** — MVP is functional. Auth, split panes, and keyboard shortcuts all work. More features coming.
+> **Status: Work in Progress**, MVP is functional. Auth, split panes, and keyboard shortcuts all work. More features coming.
 
 ![Claude SplitView Screenshot](screenshots/splitview-demo.png)
 
@@ -13,7 +13,7 @@ A lightweight Electron desktop app that lets you run multiple Claude AI conversa
 ## What It Does
 
 - Opens 2–4 Claude AI panes side by side in a single window
-- Each pane is a full claude.ai session — chat, upload files, use artifacts, everything
+- Each pane is a full claude.ai session, chat, upload files, use artifacts, everything
 - Sign in once with Google and all panes are authenticated
 - Toolbar with pane indicators, add/close/reload buttons
 - Keyboard shortcuts for fast pane switching
@@ -37,7 +37,7 @@ npm start
 ### Sign In
 
 1. Click **Continue with Google** on either pane
-2. A sign-in window opens — log in with your Google account
+2. A sign-in window opens, log in with your Google account
 3. Both panes authenticate automatically (shared session)
 
 ## Keyboard Shortcuts
@@ -61,7 +61,7 @@ The installer will be in the `dist/` folder.
 
 ```
 claude-splitview/
-  main.js              # Electron main process — window, panes, auth, shortcuts
+  main.js              # Electron main process, window, panes, auth, shortcuts
   preload.js           # Security bridge for toolbar <> main process
   package.json         # Dependencies and build config
   renderer/
@@ -97,7 +97,7 @@ The app is a thin Electron wrapper around claude.ai. Each pane is a `WebContents
 
 **Login issues:** Click Reload in the toolbar, then try signing in again.
 
-**Passkey popup (Windows Security):** Just click Cancel — Google will fall back to email/password.
+**Passkey popup (Windows Security):** Just click Cancel, Google will fall back to email/password.
 
 ## License
 
