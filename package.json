@@ -1,0 +1,28 @@
+{
+  "name": "claude-splitview",
+  "version": "1.0.0",
+  "description": "Split-view multi-pane wrapper for Claude AI",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win"
+  },
+  "author": "Thinh",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.thinh.claude-splitview",
+    "productName": "Claude SplitView",
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false
+    }
+  }
+}
